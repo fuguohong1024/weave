@@ -3,9 +3,9 @@ package plugin
 import (
 	"fmt"
 
-	weaveapi "github.com/weaveworks/weave/api"
-	"github.com/weaveworks/weave/common/docker"
-	weavenet "github.com/weaveworks/weave/net"
+	weaveapi "github.com/fuguohong1024/weave/api"
+	"github.com/fuguohong1024/weave/common/docker"
+	weavenet "github.com/fuguohong1024/weave/net"
 )
 
 type watcher struct {

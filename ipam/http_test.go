@@ -11,10 +11,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/fuguohong1024/weave/common"
+	"github.com/fuguohong1024/weave/net/address"
 	"github.com/gorilla/mux"
 	"github.com/stretchr/testify/require"
-	"github.com/weaveworks/weave/common"
-	"github.com/weaveworks/weave/net/address"
 )
 
 func HTTPPost(t *testing.T, url string) string {

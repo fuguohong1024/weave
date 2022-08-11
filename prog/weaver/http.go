@@ -12,14 +12,14 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/weaveworks/mesh"
 
+	"github.com/fuguohong1024/weave/common"
+	"github.com/fuguohong1024/weave/ipam"
+	"github.com/fuguohong1024/weave/nameserver"
+	"github.com/fuguohong1024/weave/net/address"
+	"github.com/fuguohong1024/weave/plugin"
+	"github.com/fuguohong1024/weave/proxy"
+	weave "github.com/fuguohong1024/weave/router"
 	"github.com/weaveworks/go-checkpoint"
-	"github.com/weaveworks/weave/common"
-	"github.com/weaveworks/weave/ipam"
-	"github.com/weaveworks/weave/nameserver"
-	"github.com/weaveworks/weave/net/address"
-	"github.com/weaveworks/weave/plugin"
-	"github.com/weaveworks/weave/proxy"
-	weave "github.com/weaveworks/weave/router"
 )
 
 var allConnectionStates = []string{"established", "pending", "retrying", "failed", "connecting"}

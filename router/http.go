@@ -7,9 +7,9 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/weaveworks/weave/common"
-	"github.com/weaveworks/weave/net"
-	"github.com/weaveworks/weave/net/address"
+	"github.com/fuguohong1024/weave/common"
+	"github.com/fuguohong1024/weave/net"
+	"github.com/fuguohong1024/weave/net/address"
 )
 
 func (router *NetworkRouter) HandleHTTP(muxRouter *mux.Router) {

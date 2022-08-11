@@ -9,13 +9,13 @@ import (
 
 	"github.com/weaveworks/mesh"
 
-	"github.com/weaveworks/weave/common"
-	"github.com/weaveworks/weave/db"
-	"github.com/weaveworks/weave/ipam/paxos"
-	"github.com/weaveworks/weave/ipam/ring"
-	"github.com/weaveworks/weave/ipam/space"
-	"github.com/weaveworks/weave/ipam/tracker"
-	"github.com/weaveworks/weave/net/address"
+	"github.com/fuguohong1024/weave/common"
+	"github.com/fuguohong1024/weave/db"
+	"github.com/fuguohong1024/weave/ipam/paxos"
+	"github.com/fuguohong1024/weave/ipam/ring"
+	"github.com/fuguohong1024/weave/ipam/space"
+	"github.com/fuguohong1024/weave/ipam/tracker"
+	"github.com/fuguohong1024/weave/net/address"
 )
 
 // Kinds of message we can unicast to other peers

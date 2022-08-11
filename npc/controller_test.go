@@ -7,10 +7,10 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/fuguohong1024/weave/common/chains"
+	"github.com/fuguohong1024/weave/net/ipset"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/require"
-	"github.com/weaveworks/weave/common/chains"
-	"github.com/weaveworks/weave/net/ipset"
 	coreapi "k8s.io/api/core/v1"
 	networkingv1 "k8s.io/api/networking/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

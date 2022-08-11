@@ -12,11 +12,11 @@ import (
 	"github.com/containernetworking/cni/pkg/skel"
 	"github.com/containernetworking/cni/pkg/types"
 	"github.com/containernetworking/cni/pkg/types/current"
+	weaveapi "github.com/fuguohong1024/weave/api"
+	weavenet "github.com/fuguohong1024/weave/net"
+	ipamplugin "github.com/fuguohong1024/weave/plugin/ipam"
 	"github.com/vishvananda/netlink"
 	"github.com/vishvananda/netns"
-	weaveapi "github.com/weaveworks/weave/api"
-	weavenet "github.com/weaveworks/weave/net"
-	ipamplugin "github.com/weaveworks/weave/plugin/ipam"
 )
 
 var (

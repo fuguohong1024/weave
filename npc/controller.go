@@ -12,10 +12,10 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes"
 
-	"github.com/weaveworks/weave/common"
-	"github.com/weaveworks/weave/common/chains"
-	"github.com/weaveworks/weave/net/ipset"
-	"github.com/weaveworks/weave/npc/iptables"
+	"github.com/fuguohong1024/weave/common"
+	"github.com/fuguohong1024/weave/common/chains"
+	"github.com/fuguohong1024/weave/net/ipset"
+	"github.com/fuguohong1024/weave/npc/iptables"
 )
 
 type NetworkPolicyController interface {

@@ -6,7 +6,7 @@ import (
 	"os/exec"
 	"syscall"
 
-	"github.com/weaveworks/weave/common"
+	"github.com/fuguohong1024/weave/common"
 )
 
 func waitForExit(cmd *exec.Cmd) {

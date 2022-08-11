@@ -10,8 +10,8 @@ import (
 	"strings"
 
 	"github.com/fsouza/go-dockerclient"
-	"github.com/weaveworks/weave/common"
-	weavedocker "github.com/weaveworks/weave/common/docker"
+	"github.com/fuguohong1024/weave/common"
+	weavedocker "github.com/fuguohong1024/weave/common/docker"
 )
 
 var (

@@ -6,10 +6,10 @@ import (
 	cni "github.com/containernetworking/cni/pkg/skel"
 	"github.com/containernetworking/cni/pkg/version"
 
-	weaveapi "github.com/weaveworks/weave/api"
-	"github.com/weaveworks/weave/common"
-	ipamplugin "github.com/weaveworks/weave/plugin/ipam"
-	netplugin "github.com/weaveworks/weave/plugin/net"
+	weaveapi "github.com/fuguohong1024/weave/api"
+	"github.com/fuguohong1024/weave/common"
+	ipamplugin "github.com/fuguohong1024/weave/plugin/ipam"
+	netplugin "github.com/fuguohong1024/weave/plugin/net"
 )
 
 func cniNet(args []string) error {

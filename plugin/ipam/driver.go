@@ -7,8 +7,8 @@ import (
 
 	"github.com/docker/libnetwork/discoverapi"
 	"github.com/docker/libnetwork/netlabel"
-	"github.com/weaveworks/weave/api"
-	"github.com/weaveworks/weave/common"
+	"github.com/fuguohong1024/weave/api"
+	"github.com/fuguohong1024/weave/common"
 )
 
 type Ipam struct {

@@ -11,7 +11,7 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/weaveworks/weave/ipam"
+	"github.com/fuguohong1024/weave/ipam"
 )
 
 // TODO: move these definitions somewhere more shareable

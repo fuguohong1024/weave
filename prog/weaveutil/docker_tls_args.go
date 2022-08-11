@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/weaveworks/weave/common"
+	"github.com/fuguohong1024/weave/common"
 )
 
 func dockerTLSArgs(args []string) error {

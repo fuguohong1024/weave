@@ -29,8 +29,8 @@ import (
 	"github.com/aws/aws-sdk-go/service/ec2"
 	"github.com/vishvananda/netlink"
 
-	"github.com/weaveworks/weave/common"
-	"github.com/weaveworks/weave/net/address"
+	"github.com/fuguohong1024/weave/common"
+	"github.com/fuguohong1024/weave/net/address"
 )
 
 type AWSVPCTracker struct {

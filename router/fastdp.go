@@ -14,7 +14,7 @@ import (
 	"github.com/weaveworks/go-odp/odp"
 	"github.com/weaveworks/mesh"
 
-	"github.com/weaveworks/weave/net/ipsec"
+	"github.com/fuguohong1024/weave/net/ipsec"
 )
 
 // The virtual bridge accepts packets from ODP vports and the router

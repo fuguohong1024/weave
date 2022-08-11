@@ -19,13 +19,13 @@ import (
 	"k8s.io/client-go/rest"
 	"k8s.io/client-go/tools/cache"
 
-	"github.com/weaveworks/weave/common"
-	"github.com/weaveworks/weave/common/chains"
-	"github.com/weaveworks/weave/net"
-	"github.com/weaveworks/weave/net/ipset"
-	"github.com/weaveworks/weave/npc"
-	"github.com/weaveworks/weave/npc/metrics"
-	"github.com/weaveworks/weave/npc/ulogd"
+	"github.com/fuguohong1024/weave/common"
+	"github.com/fuguohong1024/weave/common/chains"
+	"github.com/fuguohong1024/weave/net"
+	"github.com/fuguohong1024/weave/net/ipset"
+	"github.com/fuguohong1024/weave/npc"
+	"github.com/fuguohong1024/weave/npc/metrics"
+	"github.com/fuguohong1024/weave/npc/ulogd"
 )
 
 var (

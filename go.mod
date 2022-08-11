@@ -1,4 +1,4 @@
-module github.com/weaveworks/weave
+module github.com/fuguohong1024/weave
 
 go 1.14
 

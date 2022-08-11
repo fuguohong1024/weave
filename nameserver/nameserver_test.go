@@ -12,8 +12,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/weaveworks/mesh"
 
-	"github.com/weaveworks/weave/net/address"
-	"github.com/weaveworks/weave/testing/gossip"
+	"github.com/fuguohong1024/weave/net/address"
+	"github.com/fuguohong1024/weave/testing/gossip"
 )
 
 func makeNameserver(name mesh.PeerName) *Nameserver {

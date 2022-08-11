@@ -8,8 +8,8 @@ import (
 	"syscall"
 	"time"
 
+	weave "github.com/fuguohong1024/weave/router"
 	checkpoint "github.com/weaveworks/go-checkpoint"
-	weave "github.com/weaveworks/weave/router"
 )
 
 var checker *checkpoint.Checker

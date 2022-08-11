@@ -12,11 +12,11 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/vishvananda/netlink"
 
-	"github.com/weaveworks/weave/common"
-	"github.com/weaveworks/weave/common/chains"
-	"github.com/weaveworks/weave/common/odp"
-	"github.com/weaveworks/weave/net/address"
-	"github.com/weaveworks/weave/net/ipset"
+	"github.com/fuguohong1024/weave/common"
+	"github.com/fuguohong1024/weave/common/chains"
+	"github.com/fuguohong1024/weave/common/odp"
+	"github.com/fuguohong1024/weave/net/address"
+	"github.com/fuguohong1024/weave/net/ipset"
 )
 
 /* This code implements three possible configurations to connect

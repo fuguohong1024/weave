@@ -3,9 +3,9 @@ package space
 import (
 	"testing"
 
+	"github.com/fuguohong1024/weave/net/address"
+	wt "github.com/fuguohong1024/weave/testing"
 	"github.com/stretchr/testify/require"
-	"github.com/weaveworks/weave/net/address"
-	wt "github.com/weaveworks/weave/testing"
 )
 
 func makeSpace(start address.Address, size address.Offset) *Space {

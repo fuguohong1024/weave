@@ -10,12 +10,12 @@ import (
 	"github.com/docker/libnetwork/types"
 	"golang.org/x/sys/unix"
 
+	weaveapi "github.com/fuguohong1024/weave/api"
+	"github.com/fuguohong1024/weave/common"
+	"github.com/fuguohong1024/weave/common/docker"
+	weavenet "github.com/fuguohong1024/weave/net"
+	"github.com/fuguohong1024/weave/plugin/skel"
 	"github.com/vishvananda/netlink"
-	weaveapi "github.com/weaveworks/weave/api"
-	"github.com/weaveworks/weave/common"
-	"github.com/weaveworks/weave/common/docker"
-	weavenet "github.com/weaveworks/weave/net"
-	"github.com/weaveworks/weave/plugin/skel"
 )
 
 const (
